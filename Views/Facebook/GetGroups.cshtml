@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "My Facebook Groups";
+}
+
+<h2>My Facebook Groups</h2>
+
+<ul>
+    @foreach (var group in ViewBag.Groups)
+    {
+        <li>@group</li>
+    }
+</ul>
